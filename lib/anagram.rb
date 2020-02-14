@@ -12,8 +12,6 @@ class Anagram
    array.find_all do |anagram|
      if anagram.split(" ").sort == self.word.split(" ").sort
        anagram
-     else 
-       x = [] 
      end 
    end 
  end
